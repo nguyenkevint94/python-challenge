@@ -57,8 +57,7 @@ with open(budget, newline = '') as b1file:
     print("Total Revenue: $" + str(total))
     print("Average revenue change: $" + str(avg_diff))
     print("Greatest increase in revenue: " + greatest_inc_month + "  $" + str(greatest_inc))
-    print("Greatest decrease in revenue: 
-    " + greatest_dec_month + "  $" + str(greatest_dec))
+    print("Greatest decrease in revenue: " + greatest_dec_month + "  $" + str(greatest_dec))
 
 
     file = open("Financial_Analysis.txt","a")
